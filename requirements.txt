@@ -1,0 +1,3 @@
+requests==2.20.0
+crontab~=0.22.9
+discord-webhook~=0.12.0
