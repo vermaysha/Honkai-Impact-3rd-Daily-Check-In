@@ -18,9 +18,7 @@ log = logger = logging
 class _Config:
     GIH_VERSION = 'No one cares about the version anyways'
     LOG_LEVEL = logging.INFO
-    # LOG_LEVEL = logging.DEBUG
 
-    # HoYoLAB
     LANG = 'en-us'
     OS_ACT_ID = 'e202110291205111'
     OS_REFERER_URL = 'https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id={}'.format(OS_ACT_ID)
@@ -29,7 +27,6 @@ class _Config:
     OS_INFO_URL = 'https://sg-public-api.hoyolab.com/event/mani/info?lang={}&act_id={}'.format(LANG, OS_ACT_ID)
     OS_SIGN_URL = 'https://sg-public-api.hoyolab.com/event/mani/sign?lang={}'.format(LANG)
     WB_USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E150'
-
 
 class HttpRequest(object):
     @staticmethod
