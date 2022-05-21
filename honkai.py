@@ -4,7 +4,6 @@ from settings import log, CONFIG
 from sign import Sign
 from notify import Notify
 
-
 if __name__ == '__main__':
 
     notify = Notify()
@@ -17,11 +16,7 @@ if __name__ == '__main__':
         e.g. cookie1text#cookie2text
         Do not surround cookies with quotes "" if using Github Secrets.
     """
-    # Github Actions -> Settings -> Secrets
-    # Ensure that the Name is exactly: OS_COOKIE
-    # Value should look like: login_ticket=xxx; account_id=696969; cookie_token=xxxxx; ltoken=xxxx; ltuid=696969; mi18nLang=en-us; _MHYUUID=xxx
-    #         Separate cookies for multiple accounts with the hash symbol #
-    #         e.g. cookie1text#cookie2text
+
     OS_COOKIE = ''
     token = ''
 
